@@ -1,2 +1,2 @@
-# kelompok2-UI-UX-E2
+# kelompo1-UI-UX-E2
 kelompok praktik UI UX E2 PTI 2024
