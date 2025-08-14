@@ -2,8 +2,11 @@
 const express = require('express');
 const cors = require('cors');
 
+const authRoutes = require('./routes/authRoutes');
 const app = express();
 const PORT = 3001; // port 3001 untuk server
+
+app.use('/api/auth', authRoutes);
 
 app.use(cors()); // Mengizinkan permintaan dari origin lain (React app)
 app.use(express.json()); // Memungkinkan server membaca data JSON yang dikirim
