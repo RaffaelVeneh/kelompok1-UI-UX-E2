@@ -1,0 +1,5 @@
+# Folder dependensi
+node_modules
+
+# File environment, berisi kunci API, password database, dll.
+.env
